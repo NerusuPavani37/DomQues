@@ -1,0 +1,44 @@
+
+
+.container{
+  border: 1px solid black;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner1,.inner2{
+  width:200px;
+  height: 400px ;
+  border: 1px solid black;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:5rem;
+}
+
+button{
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid gray;
+}
+
+button:hover{
+  background-color: rgb(112, 105, 209);
+}
+
+.container .inner1 ul,
+.container .inner2 ul {
+  list-style: none !important;
+}
+
+.container .inner1 li,
+.container .inner2 li {
+  margin-bottom: 10px;
+}
+
+
